@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	double first_var;
 	double second_var;
-	double largest_var;
+	double largest_var = 0;
 	
 	cout << "Enter a variable: " << endl;
 	cin >> first_var;
@@ -20,7 +20,6 @@ int main() {
 		largest_var = second_var;
 	else
 		cout << "There is no largest value as both variables given are equal.";
-		largest_var = 0;
 
 	cout << largest_var;
 
