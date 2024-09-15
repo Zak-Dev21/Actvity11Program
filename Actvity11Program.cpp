@@ -21,6 +21,10 @@ int main() {
 	else
 		cout << "There is no largest value as both variables given are equal." << endl;
 
+	largest_var = (first_var > second_var) ? first_var :
+		          (second_var > first_var) ? second_var :
+		          cout << "There is no largest value as both variables given are equal." << endl;
+
 	cout << largest_var;
 
 }
