@@ -19,7 +19,7 @@ int main() {
 	else if (second_var > first_var)
 		largest_var = second_var;
 	else
-		cout << "There is no largest value as both variables given are equal.";
+		cout << "There is no largest value as both variables given are equal." << endl;
 
 	cout << largest_var;
 
