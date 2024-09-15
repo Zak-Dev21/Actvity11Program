@@ -14,16 +14,9 @@ int main() {
 	cin >> second_var;
 
 
-	if (first_var > second_var)
-		largest_var = first_var;
-	else if (second_var > first_var)
-		largest_var = second_var;
-	else
-		cout << "There is no largest value as both variables given are equal." << endl;
-
 	largest_var = (first_var > second_var) ? first_var :
 		          (second_var > first_var) ? second_var :
-		          cout << "There is no largest value as both variables given are equal." << endl;
+		          0;
 
 	cout << largest_var;
 
