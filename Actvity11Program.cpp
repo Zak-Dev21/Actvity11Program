@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	double first_var;
 	double second_var;
-	double largest_var;
+	double largest_var = 0;
 	
 	cout << "Enter a variable: " << endl;
 	cin >> first_var;
