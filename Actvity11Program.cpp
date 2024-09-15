@@ -5,7 +5,6 @@ using namespace std;
 int main() {
 	double first_var;
 	double second_var;
-	double largest_var = 0;
 	
 	cout << "Enter a variable: " << endl;
 	cin >> first_var;
@@ -14,6 +13,7 @@ int main() {
 	cin >> second_var;
 
 	if (first_var > second_var)
+		double largest_value;
 		first_var = largest_var;
 	else if (second_var > first_var)
 		second_var = largest_var;
